@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This is a test</title>
+</head>
+<body>
+
+Image URL: <input type="url" id="image-url" size="120" value="https://www.gannett-cdn.com/-mm-/421fa88894207f6fd125837bfbea3a215d8338a7/c=972-205-2409-1017/local/-/media/2016/10/18/USATODAY/USATODAY/636124053572235005-101816orange-cat-thinkstock.jpg?width=3200&height=1680&fit=crop" /> <button id="load-button">Load From URL</button>
+<br/>
+(try to change to <a target="_blank" href="https://www.google.com/search?q=cute+animals+white+background&tbm=isch">another google image photo</a> url, find an image url to paste in above, then click the button again)
+<br/>
+<br/>
+If some images doesn't work, try:
+<ol>
+    <li>run ohmy.py, go to command line, "cd" to folder containing this file, do "<code>python ohmy.py</code>"</li>
+    <li>open <a href="http://0.0.0.0:8000/">http://0.0.0.0:8000/</a></li>
+    <li>try again in opened window</li>
+</ol>
+<br/>
+<br/>
+
+<canvas id="origin">
+</canvas>
+<br/>
+
+<canvas id="board1">
+</canvas>
+<br/>
+
+<canvas id="board2">
+</canvas>
+<br/>
+
+<img id="image-holder" />
+
+<script src="./pixelize.js"></script>
+</body>
+</html>
