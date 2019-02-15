@@ -27,6 +27,7 @@ class MyHTTPRequestHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
 
 
 if __name__ == '__main__':
+    print 'open http://0.0.0.0:8000 to view'
     SimpleHTTPServer.test(HandlerClass=MyHTTPRequestHandler)
 
 
